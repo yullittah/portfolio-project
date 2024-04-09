@@ -11,6 +11,7 @@
   padding: 150px 20px;
 }
 h1 {
+  font-weight: bold;
   font-size: 64px;
   color: black;
   font-family: "Playfair Display", serif;
@@ -117,4 +118,18 @@ img {
   font-size: 18px;
   border-radius: 4px;
   padding: 10px;
+}
+
+.work-projects h3,
+p {
+  font-size: 14px;
+  font-family: var(--heading-font-family);
+}
+.work-projects h3 {
+  color: black;
+  font-weight: bold;
+  font-size: 24px;
+}
+.work-projects {
+  text-align: center;
 }
