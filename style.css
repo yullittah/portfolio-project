@@ -42,6 +42,10 @@ h1 {
   width: 150px;
   font-weight: 600;
 }
+
+.logo {
+  max-height: 40px;
+}
 .btn-branding:hover {
   color: var(--text-color);
   background-color: var(--button-background-color);
@@ -91,6 +95,11 @@ p {
   }
 }
 
+.logo-small {
+  height: 40px;
+  width: auto;
+}
+
 img {
   border-radius: 10px;
   width: 100%;
@@ -132,4 +141,88 @@ p {
 }
 .work-projects {
   text-align: center;
+}
+.content {
+  margin-top: 120px;
+  margin-right: 60px;
+}
+
+.enquiry {
+  margin-left: 100px;
+  margin-top: 100px;
+  background-color: var(--brand-background-color);
+  border-radius: 8px;
+  padding: 50px;
+}
+
+.enquiry p {
+  font-size: 18px;
+}
+.contact-content h3 {
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  font-size: 48px;
+  margin-top: 250px;
+}
+
+.work-enquiry {
+  font-family: "Playfair Display";
+}
+
+.contact-link {
+  background-color: var(--button-background-color);
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 10px 15px;
+  font-family: var(--heading-font-family);
+  font-weight: 400;
+  border-radius: 8px;
+}
+
+.mailto {
+  text-align: center;
+}
+
+.socials {
+  font-size: 24px;
+  text-align: center;
+}
+
+.socials span {
+  padding: 15px;
+  color: var(--button-background-color);
+}
+
+.email {
+  text-align: center;
+  font-family: var(--heading-font-family);
+  font-size: 18px;
+  color: var(--text-color);
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  margin-left: 15px;
+}
+nav a {
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+a:hover,
+nav li.active a {
+  color: var(--button-background-color);
+  transition: all 100ms ease-in-out;
+}
+
+.logo {
+  margin: 0;
+  max-width: 150px;
+}
+
+nav {
+  margin-top: 40px;
+  padding: 10px;
 }
