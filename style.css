@@ -179,6 +179,9 @@ p {
   font-weight: 400;
   border-radius: 8px;
 }
+.mailto :hover {
+  color: var(--text-color);
+}
 
 .mailto {
   text-align: center;
@@ -245,4 +248,5 @@ footer a {
 }
 footer a :hover {
   color: var(--button-background-color);
+  transition: ease-in-out 100ms;
 }
