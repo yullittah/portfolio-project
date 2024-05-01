@@ -230,3 +230,19 @@ nav {
 .contact-content h3 {
   margin-top: 50px;
 }
+
+footer {
+  padding: 20px;
+  text-align: center;
+  font-size: 10px;
+}
+
+footer a {
+  text-decoration: none;
+  color: var(--text-color);
+  font-weight: 500;
+  font-size: 15px;
+}
+footer a :hover {
+  color: var(--button-background-color);
+}
