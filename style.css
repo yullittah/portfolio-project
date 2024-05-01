@@ -131,7 +131,7 @@ img {
 
 .work-projects h3,
 p {
-  font-size: 14px;
+  font-size: 18px;
   font-family: var(--heading-font-family);
 }
 .work-projects h3 {
@@ -225,4 +225,8 @@ nav li.active a {
 nav {
   margin-top: 40px;
   padding: 10px;
+}
+
+.contact-content h3 {
+  margin-top: 50px;
 }
